@@ -1,2 +1,5 @@
-if 5>2:
-    print("Five is greater than two!")
+#this is a comment
+print("Hello world!")
+print("Hello world!") #this a comment
+#print("Hello world!")
+print("Cheers, Mate!")
