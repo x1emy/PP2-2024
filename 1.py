@@ -1,16 +1,23 @@
-#Many Values to Multiple Variables
-x,y,z="Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
-#One Value to Multiple Variables
-a=b=c="Orange"
-print(a)
-print(b)
-print(c)
-#Unpack a Collection
-fruits = ["apples", "bananas", "cherry"]
-q,w,z=fruits
-print(q)
-print(w)
-print(z)
+#Output Variables
+x = "Python"
+y = "is"
+z = "awesome"
+print(x,y,z)
+#################
+a = "Python"
+b = "is"
+c = "awesome"
+print(a+b+c)
+################
+q = 5
+w = 10
+print(q+w)
+################
+f = 5
+g = "John"
+print(f+g) #error because we different type
+################
+r = 5
+t = "John"
+print(x,y)
+
