@@ -6,7 +6,13 @@ for x in thisdict:
 for x in thisdict:
   print(thisdict[x])
 #example 3
+for x in thisdict.values():
+  print(x)
 
 #example 4
+for x in thisdict.keys():
+  print(x)
 
-#example 5
+#example 5 #both keys and values its items
+for x, y in thisdict.items():
+  print(x, y)
