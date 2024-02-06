@@ -1,5 +1,5 @@
 #ex 1
-'''
+
 def calculate_factorial(num):
     if num == 1 or num == 0:
         return 1
@@ -107,7 +107,7 @@ def fibonacci(n):
         return fibonacci(n-1)+fibonacci(n-2)
 n=int(input("enter the value of n: "))
 print(fibonacci(n))
-'''
+
 #ex 9
 def calculate_running(n):
     if not n:
