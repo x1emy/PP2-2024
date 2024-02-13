@@ -114,7 +114,7 @@ def calculate_running(n):
         return []
     sumr=0
     average=[]
-    for i,num in enumerate(n,start=1):
+    for i,num in range(n,start=1):
         sumr+=n
         avg=sumr/i
         average.append(avg)
