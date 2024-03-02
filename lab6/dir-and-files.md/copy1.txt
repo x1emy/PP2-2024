@@ -1,0 +1,2 @@
+this text is from copy1
+and it will be cloned to copy2
