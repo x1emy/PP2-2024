@@ -10,7 +10,8 @@ y = 300
 x_change = 0
 y_change = 0
 move_amount = 20  # Величина изменения позиции при нажатии клавиши
-
+time=pygame.time.Clock()
+fps=20
 def player(x, y):
     pygame.draw.circle(screen, (255, 0, 0), (x, y), 25)
 
@@ -49,3 +50,4 @@ while not done:
 
     player(x, y)
     pygame.display.update()
+    time.tick(fps)
