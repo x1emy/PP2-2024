@@ -3,12 +3,12 @@ import csv
 import os
 
 
-DB_NAME = 'your_database'
-DB_USER = 'your_user'
-DB_PASSWORD = 'your_password'
-DB_HOST = 'your_host'
-DB_PORT = 'your_port'
-
+conn = psycopg2.connect(
+    host='localhost', 
+    dbname='supplier', 
+    user='postgres', 
+    password='1202'
+    )
 def connect_db():
     try:
         conn = psycopg2.connect(
