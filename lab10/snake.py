@@ -8,7 +8,7 @@ from color_palette import *
 print("Enter your name")
 name = input()
 
-db = psycopg2.connect(dbname='Lab10', user='postgres', password='1202', host='localhost')
+db = psycopg2.connect(dbname='Lab10', user='postgres', password='1234', host='localhost')
 current = db.cursor()
 
 sql="""
