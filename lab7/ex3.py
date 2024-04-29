@@ -9,7 +9,7 @@ x = 400
 y = 300
 x_change = 0
 y_change = 0
-move_amount = 20  # Величина изменения позиции при нажатии клавиши
+move_amount = 20  # изменения позиции при нажатии клавиши
 time=pygame.time.Clock()
 fps=20
 def player(x, y):
